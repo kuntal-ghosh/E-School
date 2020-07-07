@@ -1,0 +1,12 @@
+.background-color{
+    background-color: #F0FFF0;
+    height: 57.7vh;
+}
+
+/* .navbar-brand img{
+    width: 200px;
+} */
+
+.navbar .navbar-brand img{
+    height: 4rem;
+}
