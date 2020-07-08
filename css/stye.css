@@ -1,12 +1,32 @@
+html,*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+
 .background-color{
     background-color: #F0FFF0;
     height: 57.7vh;
 }
 
+.primary-button{
+background-color: #21B573;
+color: white !important;
+border: none;
+padding: 8px 28px;
+border-radius: 50px;
+cursor: pointer;
+}
+
 /* .navbar-brand img{
     width: 200px;
 } */
-
+.nav-item{
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: black !important;
+}
 .navbar .navbar-brand img{
-    height: 4rem;
+    height: 3.75rem;
 }
