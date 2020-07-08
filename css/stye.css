@@ -146,7 +146,7 @@ max-width: 150px;
     }
   }
 
-  @media only screen and (max-width: 1079px) {
+  @media only screen and (max-width: 990px) {
     .card-deck{
         flex-direction: column;
         justify-content: center;
@@ -234,7 +234,7 @@ max-width: 150px;
 
 
   /* responsive design for small phone */
-  
+
   @media only screen and (max-width: 320px) {
     
     .card-description .card-deck .card{
