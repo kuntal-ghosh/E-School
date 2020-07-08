@@ -7,7 +7,7 @@ html,*{
 
 .background-color{
     background-color: #F0FFF0;
-    height: 57.7vh;
+    min-height: 57.7vh;
 }
 
 .primary-button{
@@ -19,9 +19,7 @@ border-radius: 50px;
 cursor: pointer;
 }
 
-/* .navbar-brand img{
-    width: 200px;
-} */
+
 .nav-item{
     margin-right: 1rem;
     font-size: 1rem;
@@ -30,3 +28,119 @@ cursor: pointer;
 .navbar .navbar-brand img{
     height: 3.75rem;
 }
+.introduction{
+    padding: 30px 16px;
+}
+.intro-img{
+    width: 100%;
+}
+
+.card-description{
+    padding: 2.62rem 8.43rem;
+}
+
+.card-description .card-deck .card{
+    min-width: 180px;
+    /* max-width: 300px; */
+    min-height: 250px;
+    max-height: 300px;
+    background-color: #F8FFFB;
+    margin-bottom: 15px;
+    cursor: pointer !important;
+
+}
+
+.card-description .card-deck .card:hover{
+    background-color: white;
+    box-shadow: 10px -10px 20px lightgray, -10px 10px 20px lightgray;
+    transition: box-shadow .5s;
+}
+
+.card-description .card-deck .card .card-img-top{
+
+    width: 5rem;
+    height: 5rem;
+}
+
+/* .card-description{
+    padding: 40px 135px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.card{
+    width: 200px;
+    height: 270px;
+} */
+
+.card .card-body{
+    padding: 0px;
+    margin-top: 40px;
+}
+
+
+/* online course section */
+
+.card-online-course{
+    padding-top: 0rem;
+    padding-bottom: 2.62rem;
+    padding-right:  8.43rem;
+    padding-left: 8.43rem;
+}
+
+.card-online-course .card-deck .card {
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.card-online-course .card-deck .card .card-footer{
+
+    background-color: white;
+    border: none;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 1079px) {
+    .card-deck{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card-description .card-deck .card{
+        min-width: 300px;
+       
+    }
+  }
+
+  @media only screen and (max-width: 1079px) {
+    .card-deck{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .card-description .card-deck .card{
+        min-width: 500px;
+       
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    
+    .card-description .card-deck .card{
+        min-width: 300px;
+       
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    
+    .card-description .card-deck .card{
+        min-width: 250px;
+       
+    }
+  }
